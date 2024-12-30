@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Abraham Chileshe</title>
+    <link
+      href="http://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style-liberty.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header id="site-header" class="fixed-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+            <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="courses.html">Courses</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages <i class="fas fa-angle-down"></i>
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li><a class="dropdown-item" href="about.html">About</a></li>
+                  <li>
+                    <a class="dropdown-item" href="error.html">404 Page</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="email-template.html"
+                      >Email Template</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shortcodes.html"
+                      >Shortcodes</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="landing-single.html"
+                      >Landing Page</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Blog <i class="fas fa-angle-down"></i>
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="blog.html">Blog Posts</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-single.html"
+                      >Blog Single</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <!-- search-right -->
+            <div class="header-search position-relative">
+              <div class="search-right mx-lg-2">
+                <a href="#search" class="btn search-btn p-0" title="search">
+                  <i class="fas fa-search"></i
+                ></a>
+                <!-- search popup -->
+                <div id="search" class="pop-overlay">
+                  <div class="popup">
+                    <form action="#search" method="GET" class="search-box">
+                      <input
+                        type="search"
+                        placeholder="Enter Keyword..."
+                        name="search"
+                        required="required"
+                        autofocus=""
+                      />
+                      <button type="submit" class="btn">
+                        <span class="fas fa-search" aria-hidden="true"></span>
+                      </button>
+                    </form>
+                  </div>
+                  <a class="close" href="#close">×</a>
+                </div>
+                <!-- //search popup -->
+              </div>
+            </div>
+            <!--//search-right-->
+          </div>
+          <!-- toggle switch for light and dark theme -->
+          <div class="cont-ser-position">
+            <nav class="navigation">
+              <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                  <input type="checkbox" id="checkbox" />
+                  <div class="mode-container">
+                    <i class="gg-sun"></i>
+                    <i class="gg-moon"></i>
+                  </div>
+                </label>
+              </div>
+            </nav>
+          </div>
+          <!-- //toggle switch for light and dark theme -->
+        </nav>
+      </div>
+    </header>
+    <!-- //header -->
+
+    <!-- banner section -->
+    <section id="home" class="w3l-banner py-5">
+      <div class="banner-content">
+        <div class="container py-4">
+          <div class="row align-items-center pt-sm-5 pt-4">
+            <div class="col-md-6">
+              <h3 class="mb-lg-4 mb-3">
+                <span class="d-block">Hi, i'm</span>Abraham.<span
+                  class="d-block"
+                  >Coding Tutor</span
+                >
+              </h3>
+              <p class="banner-sub">
+                Active Learning, Expert Teachers & Safe Environment
+              </p>
+              <div class="d-flex align-items-center buttons-banner">
+                <a href="#about" class="btn btn-style mt-lg-5 mt-4">About Me</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //banner section -->
+
+    <!--Education and Experience-->
+    <section class="services-w3l-block py-5" id="features">
+      <div class="container py-md-5 py-4">
+        <div
+          class="title-main text-center mx-auto mb-md-5 mb-4"
+          style="max-width: 500px"
+        >
+          <p class="text-uppercase">ABOUT MY</p>
+          <h3 class="title-style">Education and Experience</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+            <div class="icon-box icon-box-clr-2">
+              <div class="icon">
+                <img
+                  class="eduicon fefu"
+                  src="assets/images/education/fefu.jpg"
+                />
+              </div>
+              <h4 class="title"><a href="#about">End-to-End Tech</a></h4>
+              <p class="years_p"><code class="years">2021-2023</code></p>
+              <p>
+                I studies end-to-end technology at the Far Eastern Federal
+                University in Russia
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 d-flex align-items-stretch mt-md-0 mt-4"
+          >
+            <div class="icon-box icon-box-clr-1">
+              <div class="icon">
+                <img
+                  class="eduicon uopeople"
+                  src="assets/images/education/uopeople.png"
+                />
+              </div>
+              <h4 class="title"><a href="#about">Computer Science</a></h4>
+              <p class="years_p"><code class="years">2021-2026</code></p>
+              <p>
+                I'm currently a third year student at the University of the
+                People in USA (distance)
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 d-flex align-items-stretch mt-lg-0 mt-4"
+          >
+            <div class="icon-box icon-box-clr-4">
+              <div class="icon">
+                <img
+                  class="eduicon progkids"
+                  src="assets/images/education/progkids.png"
+                />
+              </div>
+              <h4 class="title">
+                <a
+                  href="https://www.progkids.com/tutors/63206576d1fd4703495a4b34"
+                  target="_blank"
+                  >Progkids</a
+                >
+              </h4>
+              <p class="years_p"><code class="years">Since 2022</code></p>
+              <p>
+                I work as a programming tutor at Progkids. I teach different
+                technologies here.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 d-flex align-items-stretch mt-lg-0 mt-4"
+          >
+            <div class="icon-box icon-box-clr-3">
+                <img
+                class="eduicon uopeople"
+                src="assets/images/education/zicta.jpeg"
+              />
+              <h4 class="title"><a href="#about">ZICTA ICT</a></h4>
+              <p class="years_p"><code class="years">2020</code></p>
+              <p>
+                I participated in a national ICT Innovation program in my country (Zambia)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- // -->
+
+    <!--About Me -->
+    <section class="w3l-servicesblock pt-lg-5 pt-4 pb-5 mb-lg-5" id="about">
+      <div class="container pb-md-5 pb-4">
+        <div class="row pb-xl-5 align-items-center">
+          <div
+            class="col-lg-6 position-relative home-block-3-left pb-lg-0 pb-5"
+          >
+            <div class="position-relative">
+              <img
+                src="assets/images/me/me_retro.png"
+                alt=""
+                class="img-fluid radius-image"
+              />
+            </div>
+            <div class="imginfo__box">
+              <h6 class="imginfo__title">Get a Appointment Today!</h6>
+              <p>
+                My first trial lesson with you is obsolutely FREE.<br />
+                Feel free to whatsapp me using the line below
+              </p>
+              <a href="tel:http://1(800)7654321"
+                ><i class="fas fa-phone-alt"></i> +7 (914) 343-14-46</a
+              >
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-6 offset-xl-1 mt-lg-0 mt-5 pt-lg-0 pt-5">
+            <h3 class="title-style">I am The Best Choice For You</h3>
+            <p class="mt-4">
+              I am a passionate programmer and educator with over four years of
+              experience in web development and a strong foundation in multiple
+              programming languages. As a programming teacher, I am dedicated to
+              inspiring and guiding the next generation of coders. My teaching
+              philosophy focuses on making complex concepts accessible and
+              fostering creativity in problem-solving.
+            </p>
+            <ul class="mt-4 list-style-lis pt-lg-1">
+              <li><i class="fas fa-check-circle"></i>Website developement</li>
+              <li>
+                <i class="fas fa-check-circle"></i>Multiple Programming
+                languages
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>Working with Real Time
+                Projects
+              </li>
+            </ul>
+            <a href="contact.html" class="btn btn-style mt-5">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- // -->
+
+    <!-- stats block -->
+    <section class="w3-stats pt-4 pb-5" id="stats">
+      <div class="container pb-md-5 pb-4">
+        <div class="row text-center pt-4">
+          <div class="col-md-3 col-6">
+            <div class="counter">
+              <img src="assets/images/icon-1.png" alt="" class="img-fluid" />
+              <div
+                class="timer count-title count-number mt-sm-1"
+                data-to="25"
+                data-speed="1"
+              ></div>
+              <p class="count-text">Students taught</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="counter">
+              <img src="assets/images/icon-3.png" alt="" class="img-fluid" />
+              <div
+                class="timer count-title count-number mt-3"
+                data-to="402"
+                data-speed="10"
+              ></div>
+              <p class="count-text">Conducted Lessons</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 mt-md-0 mt-5">
+            <div class="counter">
+              <img src="assets/images/icon-4.png" alt="" class="img-fluid" />
+              <div
+                class="timer count-title count-number mt-3"
+                data-to="10"
+                data-speed="1"
+              ></div>
+              <p class="count-text">Courses Taught</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 mt-md-0 mt-5" id="contact">
+            <div class="counter">
+              <img src="assets/images/icon-2.png" alt="" class="img-fluid" />
+              <div
+                class="timer count-title count-number mt-3"
+                data-to="1"
+                data-speed="1"
+              ></div>
+              <p class="count-text">School (worked at)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //stats block -->
+
+    <!-- call block -->
+    <section class="w3l-call-to-action-6">
+      <div class="container py-md-5 py-sm-4 py-5">
+        <div class="d-lg-flex align-items-center justify-content-between">
+          <div class="left-content-call">
+            <h3 class="title-big">Schedule Your Private Lessons</h3>
+            <p class="text-white mt-1">Begin the coding journey today!</p>
+          </div>
+          <div class="right-content-call mt-lg-0 mt-4">
+            <ul class="buttons">
+              <li class="phone-sec me-lg-4">
+                <i class="fab fa-whatsapp"></i>
+                <a class="call-style-w3" href="tel:+1(23) 456 789 0000"
+                  >+7 (914) 343 14 46</a
+                >
+              </li>
+              <li>
+                <a
+                  href="contact.html"
+                  class="btn btn-style btn-style-2 mt-lg-0 mt-3"
+                  >Text Me</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //call block -->
+
+    <!-- why choose block -->
+    <section class="w3l-service-1 py-5">
+      <div class="container py-md-5 py-4">
+        <div
+          class="title-main text-center mx-auto mb-md-5 mb-4"
+          style="max-width: 500px"
+        >
+          <p class="text-uppercase">Check Out my</p>
+          <h3 class="title-style" style="font-family: roboto">
+            Youtube Lesson Snippets
+          </h3>
+        </div>
+        <div class="row content23-col-2 text-center">
+          <div class="col-md-6">
+            <div class="">
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/ZNnhNBIxsuo"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-md-0 mt-4">
+            <div class="content23-grid content23-grid2">
+              <h4><a href="about.html">Safe Environment</a></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //why choose block -->
+
+    <!-- courses section -->
+    <div class="w3l-grids-block-5 home-course-bg py-5" id="courses">
+      <div class="container py-md-5 py-4">
+        <div
+          class="title-main text-center mx-auto mb-md-5 mb-4"
+          style="max-width: 500px"
+        >
+          <p class="text-uppercase">Private Lessons</p>
+          <h3 class="title-style">Find The Right Course For You</h3>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="coursecard-single">
+              <div class="grids5-info position-relative">
+                <img src="assets/images/c1.jpg" alt="" class="img-fluid" />
+                <div class="meta-list">
+                  <a href="courses.html">Art & Design</a>
+                </div>
+              </div>
+              <div class="content-main-top">
+                <div class="content-top mb-4 mt-3">
+                  <ul
+                    class="list-unstyled d-flex align-items-center justify-content-between"
+                  >
+                    <li><i class="fas fa-book-open"></i> 43 Lesson</li>
+                    <li><i class="fas fa-star"></i> 4.5</li>
+                  </ul>
+                </div>
+                <h4><a href="courses.html">Educational Programs</a></h4>
+                <p>
+                  Sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua.
+                </p>
+                <div
+                  class="top-content-border d-flex align-items-center justify-content-between mt-4 pt-4"
+                >
+                  <h6>$42.00</h6>
+                  <a class="btn btn-style-primary" href="courses.html"
+                    >Know Details<i class="fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
+            <div class="coursecard-single">
+              <div class="grids5-info position-relative">
+                <img src="assets/images/c2.jpg" alt="" class="img-fluid" />
+                <div class="meta-list">
+                  <a href="courses.html" class="sec-2">Meditation</a>
+                </div>
+              </div>
+              <div class="content-main-top">
+                <div class="content-top mb-4 mt-3">
+                  <ul
+                    class="list-unstyled d-flex align-items-center justify-content-between"
+                  >
+                    <li><i class="fas fa-book-open"></i> 72 Lesson</li>
+                    <li><i class="fas fa-star"></i> 4.3</li>
+                  </ul>
+                </div>
+                <h4><a href="courses.html">Best Meditation Classes</a></h4>
+                <p>
+                  Sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua.
+                </p>
+                <div
+                  class="top-content-border d-flex align-items-center justify-content-between mt-4 pt-4"
+                >
+                  <h6>$36.00</h6>
+                  <a class="btn btn-style-primary" href="courses.html"
+                    >Know Details<i class="fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
+            <div class="coursecard-single">
+              <div class="grids5-info position-relative">
+                <img src="assets/images/c3.jpg" alt="" class="img-fluid" />
+                <div class="meta-list">
+                  <a href="courses.html" class="sec-3">Games</a>
+                </div>
+              </div>
+              <div class="content-main-top">
+                <div class="content-top mb-4 mt-3">
+                  <ul
+                    class="list-unstyled d-flex align-items-center justify-content-between"
+                  >
+                    <li><i class="fas fa-book-open"></i> 14 Lesson</li>
+                    <li><i class="fas fa-star"></i> 4.2</li>
+                  </ul>
+                </div>
+                <h4><a href="courses.html">Games Program in a Week</a></h4>
+                <p>
+                  Sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua.
+                </p>
+                <div
+                  class="top-content-border d-flex align-items-center justify-content-between mt-4 pt-4"
+                >
+                  <h6>$30.00</h6>
+                  <a class="btn btn-style-primary" href="courses.html"
+                    >Know Details<i class="fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-sm-5 mt-4 pt-sm-0 pt-1">
+          <a
+            class="btn btn-style btn-style-secondary mt-sm-3"
+            href="courses.html"
+          >
+            Browse more courses</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- //courses section -->
+
+    <!-- footer block -->
+    <footer class="w3l-footer-29-main">
+      <div class="footer-29 pt-5 pb-4">
+        <div class="container pt-md-4">
+          <div class="row footer-top-29">
+            <div class="col-lg-4 col-md-6 footer-list-29">
+              <h6 class="footer-title-29">Contact Info</h6>
+              <p class="mb-2 pe-xl-5">
+                Address : Edu School, 10001, 5th Avenue, #06 lane street, NY -
+                62617.
+              </p>
+              <p class="mb-2">
+                Phone Number : <a href="tel:+1(21) 234 4567">+1(21) 234 4567</a>
+              </p>
+              <p class="mb-2">
+                Email :
+                <a
+                  href="https://p.w3layouts.com/cdn-cgi/l/email-protection#335a5d555c73564b525e435f561d505c5e"
+                  ><span
+                    class="__cf_email__"
+                    data-cfemail="a7cec9c1c8e7c2dfc6cad7cbc289c4c8ca"
+                    >[email&#160;protected]</span
+                  ></a
+                >
+              </p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 footer-list-29 mt-md-0 mt-4">
+              <ul>
+                <h6 class="footer-title-29">Quick Links</h6>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="#become-teacher">Become a Teacher</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#career">Career</a></li>
+              </ul>
+            </div>
+            <div
+              class="col-lg-2 col-md-3 col-6 ps-lg-5 ps-lg-4 footer-list-29 mt-md-0 mt-4"
+            >
+              <ul>
+                <h6 class="footer-title-29">Explore</h6>
+                <li><a href="blog.html">Blog Posts</a></li>
+                <li><a href="#privacy">Privacy policy</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#license">License & uses</a></li>
+                <li><a href="#tutorials">Tutorials</a></li>
+              </ul>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 col-sm-8 footer-list-29 mt-lg-0 mt-4 ps-lg-5"
+            >
+              <h6 class="footer-title-29">Subscribe</h6>
+              <form action="#" class="subscribe d-flex" method="post">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email Address"
+                  required=""
+                />
+                <button class="button-style">
+                  <span class="fa fa-paper-plane" aria-hidden="true"></span>
+                </button>
+              </form>
+              <p class="mt-3">
+                Subscribe to our mailing list and get updates to your email
+                inbox.
+              </p>
+            </div>
+          </div>
+          <!-- copyright -->
+          <p class="copy-footer-29 text-center pt-lg-2 mt-5 pb-2">
+            © 2021 Edu School. All rights reserved. Design by
+            <a href="https://w3layouts.com/" target="_blank">W3Layouts</a>
+          </p>
+          <!-- //copyright -->
+        </div>
+      </div>
+    </footer>
+    <!-- //footer block -->
+
+    <!-- Js scripts -->
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+      <span class="fas fa-level-up-alt" aria-hidden="true"></span>
+    </button>
+    <script
+      data-cfasync="false"
+      src="../../../../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          document.getElementById("movetop").style.display = "block";
+        } else {
+          document.getElementById("movetop").style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <!-- //move top -->
+
+    <!-- common jquery plugin -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- //common jquery plugin -->
+
+    <!-- /counter-->
+    <script src="assets/js/counter.js"></script>
+    <!-- //counter-->
+
+    <!-- theme switch js (light and dark)-->
+    <script src="assets/js/theme-change.js"></script>
+    <!-- //theme switch js (light and dark)-->
+
+    <!-- MENU-JS -->
+    <script>
+      $(window).on("scroll", function () {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 80) {
+          $("#site-header").addClass("nav-fixed");
+        } else {
+          $("#site-header").removeClass("nav-fixed");
+        }
+      });
+
+      //Main navigation Active Class Add Remove
+      $(".navbar-toggler").on("click", function () {
+        $("header").toggleClass("active");
+      });
+      $(document).on("ready", function () {
+        if ($(window).width() > 991) {
+          $("header").removeClass("active");
+        }
+        $(window).on("resize", function () {
+          if ($(window).width() > 991) {
+            $("header").removeClass("active");
+          }
+        });
+      });
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+      $(function () {
+        $(".navbar-toggler").click(function () {
+          $("body").toggleClass("noscroll");
+        });
+      });
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- //bootstrap -->
+    <!-- //Js scripts -->
+
+    <script>
+      (function () {
+        function c() {
+          var b = a.contentDocument || a.contentWindow.document;
+          if (b) {
+            var d = b.createElement("script");
+            d.innerHTML =
+              "window.__CF$cv$params={r:'8f9280ecec0de8fe',t:'MTczNTM5ODkwNC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../../../../../../cdn-cgi/challenge-platform/h/b/scripts/jsd/787bc399e22f/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";
+            b.getElementsByTagName("head")[0].appendChild(d);
+          }
+        }
+        if (document.body) {
+          var a = document.createElement("iframe");
+          a.height = 1;
+          a.width = 1;
+          a.style.position = "absolute";
+          a.style.top = 0;
+          a.style.left = 0;
+          a.style.border = "none";
+          a.style.visibility = "hidden";
+          document.body.appendChild(a);
+          if ("loading" !== document.readyState) c();
+          else if (window.addEventListener)
+            document.addEventListener("DOMContentLoaded", c);
+          else {
+            var e = document.onreadystatechange || function () {};
+            document.onreadystatechange = function (b) {
+              e(b);
+              "loading" !== document.readyState &&
+                ((document.onreadystatechange = e), c());
+            };
+          }
+        }
+      })();
+    </script>
+  </body>
+
+  <!-- Mirrored from p.w3layouts.com/demos_new/template_demo/13-11-2021/edu-school-liberty-demo_Free/1709965129/web/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Dec 2024 15:16:24 GMT -->
+</html>
